@@ -11,11 +11,11 @@
     <form action="index.html">
 
         <label for="firstname">Firstname</label><br>
-        <input type="text" id="firstname" placeholder="firstname"> 
+        <input type="text" id="firstname" placeholder="firstname" required> 
         <br><br>
         
         <label for="lastname">Lastname</label><br>
-        <input type="text" id="lastname" placeholder="lastname">
+        <input type="text" id="lastname" placeholder="lastname" required>
         <br><br>
 
         <label for="username">Username</label><br>
@@ -33,11 +33,115 @@
         <label for="confirm password">Confirm Password</label><br>
         <input type="password" id="confirm password"placeholder="confirm password" required>
         <br><br>
+      <h4>Date of Birth</h4>
+        <label for="day">Day</label>
+        <select id="day" name="day">
+        <option value="01">1</option>
+        <option value="02">2</option>
+        <option value="03">3</option>
+        <option value="04">4</option>
+        <option value="05">5</option>
+        <option value="06">6</option>
+        <option value="07">7</option>
+        <option value="08">8</option>
+        <option value="09">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+        </select>
 
-        <label for="date">Date</label><br>
-        <input type="date" id="date" placeholder="date">
+        <label for="month">Month</label>
+        <select id="month" name="month">
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
+      </select>
+
+      <label for="year">Year</label>
+      <select id="year" name="year">
+      <option value="2021">2021</option>
+      <option value="2020">2020</option>
+      <option value="2019">2019</option>
+      <option value="2018">2018</option>
+      <option value="2017">2017</option>
+      <option value="2016">2016</option>
+      <option value="2015">2015</option>
+      <option value="2014">2014</option>
+      <option value="2013">2013</option>
+      <option value="2012">2012</option>
+      <option value="2011">2011</option>
+      <option value="2010">2010</option>
+      <option value="2009">2009</option>
+      <option value="2008">2008</option>
+      <option value="2007">2007</option>
+      <option value="2006">2006</option>
+      <option value="2005">2005</option>
+      <option value="2004">2004</option>
+      <option value="2003">2003</option>
+      <option value="2002">2002</option>
+      <option value="2001">2001</option>
+      <option value="2000">2000</option>
+      <option value="1999">1999</option>
+      <option value="1998">1998</option>
+      <option value="1997">1997</option>
+      <option value="1996">1996</option>
+      <option value="1995">1995</option>
+      <option value="1994">1994</option>
+      <option value="1993">1993</option>
+      <option value="1992">1992</option>
+      <option value="1991">1991</option>
+      <option value="1990">1990</option>
+      <option value="1989">1989</option>
+      <option value="1988">1988</option>
+      <option value="1987">1987</option>
+      <option value="1986">1986</option>
+      <option value="1985">1985</option>
+      <option value="1984">1984</option>
+      <option value="1983">1983</option>
+      <option value="1982">1982</option>
+      <option value="1981">1981</option>
+      <option value="1980">1980</option>
+      <option value="1979">1979</option>
+      <option value="1978">1978</option>
+      <option value="1977">1977</option>
+      <option value="1976">1976</option>
+      <option value="1975">1975</option>
+      <option value="1974">1974</option>
+      <option value="1973">1973</option>
+      <option value="1972">1972</option>
+      <option value="1971">1971</option>
+      <option value="1970">1970</option>
+      </select>
         <br><br>
-
+        
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label><br>
 
@@ -60,16 +164,17 @@
 
         <h4>Security questions</h4>
       <label for="questions">Select one</label>
-      <select id="questions" name="questions">
+      <select id="questions" name="questions" required>
         <option value="what is your middle name">What is your middle name?</option>
         <option value="What is your favorite color">What is your favorite color?</option>
         <option value="What is your favorite food">What is your favorite food?</option>
         <option value="Who is your celebrity crush">Who is your celebrity crush?</option>
         <option value="What is your favorite day of the week">What is your favorite day of the week?</option>
-    </select><br><br>
+      </select><br><br>
 
       <textarea name="message" rows="5" cols="15" placeholder="your answer"></textarea>
-       <h4>TERMS AND CONDITIONS</h4>
+      
+      <h4>TERMS AND CONDITIONS</h4>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro incidunt aut temporibus cupiditate nam, possimus nisi in tempore perspiciatis, suscipit voluptatem ad pariatur earum dignissimos illum, ex harum corrupti. In at minus obcaecati, vel minima vero. Ducimus, debitis! Nihil consectetur magnam aliquid at impedit in magni modi, quibusdam facere id officia reprehenderit quisquam similique, hic dolor debitis ipsum accusantium? Exercitationem, reiciendis velit! Et blanditiis exercitationem nam perferendis minus quo est cupiditate necessitatibus voluptates, natus totam illum quasi nulla magnam eum vitae! Unde totam possimus quibusdam? Minus, tenetur qui doloremque impedit veritatis fuga maxime culpa quibusdam dolor id nesciunt aliquam hic! Voluptatem sunt officiis itaque porro obcaecati vero velit quis, minima quisquam commodi minus beatae iusto sed sapiente nobis, ullam molestias tempore rem fuga nisi odit? Pariatur labore maxime iste harum minima quis quae, soluta, quasi odit consequuntur quaerat exercitationem. Corrupti sint deserunt ratione sunt, assumenda eligendi atque modi id maiores voluptatem ea dolorum nam at! Rerum, impedit fugit temporibus a qui perferendis officia, esse hic sed possimus aut cupiditate accusamus quasi nemo. Distinctio aperiam quo sed, perspiciatis aut perferendis quam error sequi dolore iste quis voluptatem dignissimos officia. Nisi voluptatum maiores recusandae a iste quidem, provident fugit deleniti error impedit laboriosam accusantium, excepturi hic placeat aut animi dolore velit natus quasi rerum ratione distinctio! Maiores voluptatibus magnam laudantium quos totam sunt placeat inventore. Magnam aut distinctio fugit iure vel est inventore consequuntur, delectus, aliquam ut animi nam? Illum veritatis repellat delectus harum aperiam? Voluptas voluptatem nam incidunt in rem cumque quasi sunt expedita quidem, quod, error dicta natus nulla. Voluptatum, blanditiis autem error, placeat ad atque aperiam culpa aliquid distinctio dicta quam, dolor hic ipsam illum odio sapiente a nisi veniam vitae. Dicta veritatis saepe laudantium? Error dolore nobis dignissimos dicta? Dolorem beatae expedita fugiat cupiditate itaque quo voluptates libero non incidunt animi obcaecati atque et accusamus, placeat laudantium veniam corrupti illo veritatis. Pariatur explicabo placeat omnis eos porro distinctio consequuntur modi! Maxime quia a porro in ullam iure labore debitis excepturi soluta. Nobis eveniet iure consequatur eaque? Laudantium delectus sit asperiores unde quasi dolore molestias fugiat reprehenderit consequatur. Mollitia soluta, est esse voluptatibus rerum reiciendis sapiente hic voluptate veniam deleniti quibusdam adipisci asperiores molestias et doloribus voluptates inventore facere vitae voluptatem, ad consequuntur nam nobis sunt. Optio, eveniet illum id doloribus vitae eius, non quibusdam voluptatem magni facere ea quaerat dolores. Iusto ducimus est commodi molestiae quis, error aperiam velit officia mollitia omnis quidem, quos deleniti nulla dolore ratione, porro asperiores facilis repellat ullam nihil consequatur ex nisi temporibus enim? Eius, dicta natus, fugit eum, consequatur deleniti recusandae esse laudantium rerum repellat deserunt expedita necessitatibus. Laboriosam natus perferendis quia architecto, dolorum praesentium similique cumque corporis voluptas doloribus saepe a, impedit ea cupiditate dicta eius, vitae molestias! Quia facere qui optio omnis libero officiis. Officia ad quos, temporibus inventore soluta molestiae ratione esse eos nihil dolor hic reiciendis deserunt rerum, saepe rem numquam? Exercitationem rem quis rerum accusamus eos sapiente quia magni debitis ratione sed, distinctio, earum animi necessitatibus tenetur.</p>
       <input type="radio" id="yea" name="answer" value="answer">
       <label for="yea">I Agree</label> 
